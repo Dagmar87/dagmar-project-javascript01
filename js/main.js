@@ -1,5 +1,6 @@
 // Aula 03: Condicionais, laços de repetição e Date
 
+/*
 var d = new Date();
 alert(d);
 alert(d.getMonth()+1);
@@ -7,7 +8,6 @@ alert(d.getMinutes());
 alert(d.getHours());
 alert(d.getDay());
 
-/*
 var count;
 for(count = 1; count <= 5; count++){
     alert(count);
