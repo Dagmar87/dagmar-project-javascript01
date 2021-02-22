@@ -1,3 +1,35 @@
+// Aula 03: Condicionais, laços de repetição e Date
+
+var d = new Date();
+alert(d);
+alert(d.getMonth()+1);
+alert(d.getMinutes());
+alert(d.getHours());
+alert(d.getDay());
+
+/*
+var count;
+for(count = 1; count <= 5; count++){
+    alert(count);
+}
+
+var count = 0;
+while(count <= 5){
+    console.log(count);
+    alert(count);
+    //count = count + 1;
+    count++;
+};
+
+var idade = prompt("Qual sua idade");
+//var idade = 18;
+if(idade >= 18){
+    alert("maior de idade");
+}else{
+    alert("menor de idade");
+};
+*/
+
 // Aula 02: Array e Dicionário
 
 /*
