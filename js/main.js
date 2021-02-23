@@ -1,3 +1,62 @@
+// Aula 05: Parte 2: Manipulando elementos da página
+
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obrigado por clicar</b>";
+    //console.log(document.getElementById("agradecimento"));
+    //alert("Obrigado por clicar");
+}
+
+function redirecionar(){
+    window.open("https://www.globo.com/");
+    //window.location.href = "https://www.globo.com/";
+}
+
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //alert("trocar texto");
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("pagina carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+
+// Aula 04: Desenvolva páginas web com JavaScript 
+
+/*
+function soma(n1, n2){
+    return n1 + n2;
+}
+alert(soma(5, 10));
+
+function setReplace(frase, nome, novo_nome){
+    return frase.replace(nome, novo_nome);
+}
+alert(setReplace("Vai Japão", "Japão", "Brasil"));
+
+var validar = 0;
+function validaIdade(idade){
+    if(idade >= 18){
+        validar = true;
+    } else{
+        validar = false;
+    }
+    return validar;
+}
+var idade = prompt("Qual sua idade");
+console.log(validaIdade(idade));
+
+*/
+
 // Aula 03: Condicionais, laços de repetição e Date
 
 /*
